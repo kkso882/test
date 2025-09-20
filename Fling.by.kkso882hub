@@ -1,4 +1,4 @@
-Created by kkso882hub
+-- player fling GUI (kkso882hub)
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
@@ -25,7 +25,7 @@ Frame.Draggable = true
 
 -- Title label properties
 TitleLabel.Parent = Frame
-TitleLabel.Text = "kkso882"
+TitleLabel.Text = "kkso882hub"
 TitleLabel.Font = Enum.Font.SourceSansBold
 TitleLabel.TextSize = 24
 TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -50,7 +50,7 @@ FlingButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 FlingButton.Position = UDim2.new(0.1, 0, 0.5, 0)
 FlingButton.Size = UDim2.new(0.8, 0, 0.2, 0)
 FlingButton.Font = Enum.Font.SourceSans
-FlingButton.Text = "fling!!!"
+FlingButton.Text = "FLING!"
 FlingButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 FlingButton.TextSize = 20
 
