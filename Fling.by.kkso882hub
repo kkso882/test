@@ -249,6 +249,4 @@ end)
 -- Destroy button functionality
 DestroyButton.MouseButton1Click:Connect(function()
     ScreenGui:Destroy()
-end) 
-
-Original creator bykkso882hub
+end)
