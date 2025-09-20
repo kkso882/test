@@ -343,7 +343,7 @@ local function notify(txt)
 	i6.Text=txt
 	twait(2)
 	if notifyid==thisid then
-		i6.Text="by MyWorld edited by Onlyscripts"
+		i6.Text="by kkso882hub"
 	end
 end
 local bringing=false
