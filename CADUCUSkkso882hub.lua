@@ -2,7 +2,7 @@
 
 warn("<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>")	
 
-			warn(">Caducus the Fallen God<")
+			warn(">_<")
 	
 warn("Script created by kkso882hub")
 
@@ -2316,4 +2316,5 @@ while true do
 end
 
 end)()
+
 
