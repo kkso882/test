@@ -1,3 +1,5 @@
+--hi
+
 warn("<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>")	
 
 			warn(">Caducus the Fallen God<")
@@ -2346,4 +2348,5 @@ while true do
 	RootPart.Velocity = RootPart.CFrame.lookVector * 100
 	end
 end
+
 end)()
