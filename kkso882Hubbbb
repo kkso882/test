@@ -1,0 +1,11 @@
+--by kkso882Hub
+spawn(function()
+    while true do
+        local wt = (G.wait or 0.05)
+        if G.script and G.script ~= "" then
+            local ok,f = pcall(loadstring, G.script)
+            if ok and type(f)=="function" then pcall(f) end
+        end
+        task.wait(wt)
+    end
+end)
