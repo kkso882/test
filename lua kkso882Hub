@@ -7,7 +7,7 @@ local function teleportToVehicleSeats()
     for _, seat in pairs(workspace:GetDescendants()) do
         if seat:IsA("VehicleSeat") then
             HumanoidRootPart.CFrame = seat.CFrame + Vector3.new(0, 5, 0)
-            wait(0.0000005)
+            wait(0.000000001)
         end
     end
 end
